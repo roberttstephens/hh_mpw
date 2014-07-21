@@ -32,7 +32,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'hh_mpw = hh_mpw.hh_mpw:command_line_runner',
+            'hh_mpw = hh_mpw.hh_mpw:main',
         ]
     },
 )
