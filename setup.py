@@ -30,4 +30,9 @@ setup(
         "lxml",
         "cssselect",
     ],
+    entry_points={
+        'console_scripts': [
+            'hh_mpw = hh_mpw.hh_mpw:command_line_runner',
+        ]
+    },
 )
