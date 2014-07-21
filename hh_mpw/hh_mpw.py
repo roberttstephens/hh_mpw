@@ -51,6 +51,8 @@ def main():
     if mpw:
         for key, value in mpw.items():
             print(key, value, sep='\t')
+    else:
+        print('No results. Are you sure you used a hal higdon url?')
 
 
 if __name__ == '__main__':
