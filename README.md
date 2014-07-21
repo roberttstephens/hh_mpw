@@ -7,3 +7,7 @@ I don't anticipate this to be reusable, but it can serve as an example of some c
  - Parse html with lxml
  - Using setup.py
  - Regex
+
+## Installation instructions
+
+    pip install git+https://github.com/roberttstephens/hh_mpw.git
