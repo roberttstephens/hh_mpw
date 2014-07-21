@@ -30,11 +30,11 @@ def hh_mpw(url):
     column_sel = CSSSelector('td')
     rows = row_sel(tree)
     # The first row just lists the days of the week.
-    for row in rows[1::]:
+    for week_number, row in enumerate(rows[1::]):
         columns = column_sel(row)
         # The first column is the week number.
         week_miles = sum(list(map(float, list(filter(None, [get_miles(c.text_content()) for c in columns[1:]])))))
-        mpw[columns[0].text_content()] = week_miles
+        mpw[week_number] = week_miles
     return mpw
 
 def main():
