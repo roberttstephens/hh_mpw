@@ -15,16 +15,18 @@ I don't anticipate this to be reusable, but it can serve as an example of some c
 
 ## Usage
 
-    usage: hh_mpw [-h] url
+    usage: hh_mpw [-h] [-p PACE] url
     
     Determine the miles per week for a hal higdon program.
     
     positional arguments:
-      url         The url to check
+      url                   The url to check
     
     optional arguments:
-      -h, --help  show this help message and exit
+      -h, --help            show this help message and exit
+      -p PACE, --pace PACE  Your average pace in minutes per mile
 
-## Example
+## Examples
 
     hh_mpw 'http://www.halhigdon.com/training/51131/Half-Marathon-Novice-1-Training-Program'
+    hh_mpw 'http://www.halhigdon.com/training/51131/Half-Marathon-Novice-1-Training-Program' -p 8
