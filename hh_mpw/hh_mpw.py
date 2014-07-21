@@ -44,7 +44,7 @@ def parse_miles(string):
 
 def hh_mpw(url, pace):
     """
-    Get the miles per week for a hal higdon program in a list format.
+    Get the miles per week for a hal higdon program in a dict format.
     """
     mpw = dict()
     r = requests.get(url)
