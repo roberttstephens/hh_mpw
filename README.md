@@ -11,7 +11,7 @@ I don't anticipate this to be reusable, but it can serve as an example of some c
  - Slices
 
 ## Requirements
-This requires python3 and will _NOT_ run under python 2.
+This requires python 3 and will _NOT_ run under python 2.
 
 ## Installation instructions
 
