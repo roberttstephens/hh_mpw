@@ -10,6 +10,9 @@ I don't anticipate this to be reusable, but it can serve as an example of some c
  - List comprehensions
  - Slices
 
+## Requirements
+This requires python3 and will _NOT_ run under python 2.
+
 ## Installation instructions
 
     pip install git+https://github.com/roberttstephens/hh_mpw.git
